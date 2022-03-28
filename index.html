@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location app</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Text Editor</h1>
+        <p>Made with love</p>
+        <label for="typeOfFont">type of font</label>
+        <div class="select">
+            <select id="typeOfFont">
+                    <option value="Arial">Arial</option>
+                    <option value="Baloo 2">Baloo 2</option>
+                    <option value="Cairo">Cairo</option>
+                    <option value="Courier New">Courier New</option>
+                    <option value="Helvetica">Helvetica</option>
+                    <option value="Open Sans">Open Sans</option>
+                    <option value="Roboto">Roboto</option>
+                    <option value="Red Hat Mono">Red Hat Mono</option>
+                    <option value="Roboto Condensed">Roboto Condensed</option>
+                    <option value="Tajawal">Tajawal</option>
+                </select>
+            <span class="focus"></span>
+        </div>
+        <label for="colorOfFont">color of font</label>
+        <div class="select">
+            <select id="colorOfFont">
+                    <option data-color="red" value="red">red</option>
+                    <option data-color="blue" value="blue">blue</option>
+                    <option data-color="green" value="green">green</option>
+                    <option data-color="skyBlue" value="skyBlue">skyBlue</option>
+                    <option data-color="purple" value="purple">purple</option>
+                    <option data-color="black" value="black">black</option>
+                </select>
+            <span class="focus"></span>
+        </div>
+        <label for="sizeOfFont">size of font</label>
+        <div class="select">
+            <select id="sizeOfFont">
+                <option value="26px">26</option>
+                <option value="24px">24</option>
+                <option value="22px">22</option>
+                <option value="20px">20</option>
+                <option value="18px">18</option>
+                <option value="16px">16</option>
+            </select>
+            <span class="focus"></span>
+        </div>
+    </div>
+    <form action="">
+        <textarea class="put" maxlength="250" rows="5" cols="20">
+</textarea>
+        <input type="submit">
+    </form>
+    <div class="divition" style="font-weight: 600;"></div>
+    <button class="bold">B</button>
+    <button class="italic">I</button>
+
+
+</body>
+
+</html>
