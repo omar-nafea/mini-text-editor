@@ -249,13 +249,13 @@ input[type=submit] {
     .container {
         position: absolute;
         width: 76%;
-        top: 35%;
+        top: 40%;
     }
     .divition {
         width: 90%;
         height: 170px;
         position: absolute;
-        top: 70%;
+        top: 73%;
         left: 5%;
         padding: 7px 10px;
         background-color: #fff;
@@ -266,13 +266,13 @@ input[type=submit] {
         width: 90%;
         height: 170px;
         position: absolute;
-        top: 3%;
+        top: 10%;
         left: 5%;
         padding: 7px 10px;
     }
     input[type=submit] {
         position: absolute;
-        top: 30%;
+        top: 38%;
     }
     .bold {
         position: absolute;
@@ -296,6 +296,15 @@ input[type=submit] {
         font-family: serif;
         background-color: #fff;
         border-radius: 5px;
+    }
+    h1 {
+        display: block;
+        position: absolute;
+        left: 30%;
+        top: -125%;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-size: 2em;
+        text-align: center
     }
 }
 
