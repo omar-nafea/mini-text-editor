@@ -132,6 +132,7 @@ textarea {
     /* IE and Edge */
     scrollbar-width: none;
     /* Firefox */
+    z-index: 200;
 }
 
 textarea::-webkit-scrollbar {
@@ -149,6 +150,10 @@ textarea::-webkit-scrollbar {
     background-color: #fff;
     border-radius: 4px;
     border: 2px solid #ccc;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
 }
 
 .bold {
