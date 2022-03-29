@@ -241,6 +241,9 @@ input[type=submit] {
 }
 
 @media (min-width: 300px) and (max-width: 650px) {
+    .container {
+        width: 85%;
+    }
     .divition {
         width: 90%;
         height: 170px;
@@ -257,18 +260,18 @@ input[type=submit] {
         width: 90%;
         height: 170px;
         position: absolute;
-        top: 40%;
+        top: 37%;
         left: 5%;
         padding: 7px 10px;
     }
     input[type=submit] {
         position: absolute;
-        top: 65.5%;
+        top: 64%;
     }
     .bold {
         position: absolute;
-        top: 35%;
-        left: 10%;
+        top: 30%;
+        left: 85%;
         width: 30px;
         border: 1px solid #777;
         font-weight: 900;
@@ -278,8 +281,8 @@ input[type=submit] {
     }
     .italic {
         position: absolute;
-        top: 35%;
-        left: 20%;
+        top: 20%;
+        left: 85%;
         width: 30px;
         border: 1px solid #777;
         font-style: italic;
